@@ -26,6 +26,11 @@
     ],
     "scheduled_maintenances": [
       {
+        "name": "Internet down.",
+        "impact": "invalid",
+        "started_at": "2021-10-10T10:10:00.001Z"
+      },
+      {
         "id": "pvg66363444f",
         "name": "Upgrade RPC node",
         "status": "in_progress",
