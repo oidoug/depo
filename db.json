@@ -25,80 +25,80 @@
       }
     ],
     "scheduled_maintenances": [
-		{
-			"id": "pvg66363444f",
-			"name": "Upgrade RPC node",
-			"status": "in_progress",
-			"created_at": "2022-01-25T19:33:29.484Z",
-			"updated_at": "2022-01-25T20:00:46.844Z",
-			"monitoring_at": null,
-			"resolved_at": null,
-			"impact": "maintenance",
-			"shortlink": "https://stspg.io/w43l4h2fvd1b",
-			"started_at": "2022-01-25T19:33:29.478Z",
-			"page_id": "xtnh90p3pt2z",
-			"incident_updates": [
-				{
-					"id": "01lljwg66qbp",
-					"status": "in_progress",
-					"body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-					"incident_id": "pvg66363444f",
-					"created_at": "2022-01-25T20:00:46.839Z",
-					"updated_at": "2022-01-25T20:00:46.839Z",
-					"display_at": "2022-01-25T20:00:46.839Z",
-					"affected_components": [
-						{
-							"code": "fldg11grwjyr",
-							"name": "Subgraph",
-							"old_status": "operational",
-							"new_status": "under_maintenance"
-						}
-					],
-					"deliver_notifications": true,
-					"custom_tweet": null,
-					"tweet_id": null
-				},
-				{
-					"id": "2mkv5g9124bw",
-					"status": "scheduled",
-					"body": "We will be undergoing scheduled maintenance during this time to upgrade the RPC node our subgraph uses.",
-					"incident_id": "pvg66363444f",
-					"created_at": "2022-01-25T19:33:29.546Z",
-					"updated_at": "2022-01-25T19:33:29.546Z",
-					"display_at": "2022-01-25T19:33:29.546Z",
-					"affected_components": [
-						{
-							"code": "fldg11grwjyr",
-							"name": "Subgraph",
-							"old_status": "operational",
-							"new_status": "operational"
-						}
-					],
-					"deliver_notifications": true,
-					"custom_tweet": null,
-					"tweet_id": null
-				}
-			],
-			"components": [
-				{
-					"id": "fldg11grwjyr",
-					"name": "Subgraph",
-					"status": "under_maintenance",
-					"created_at": "2021-12-16T17:18:11.905Z",
-					"updated_at": "2022-01-25T20:00:46.382Z",
-					"position": 4,
-					"description": "answers queries about blockchain state",
-					"showcase": true,
-					"start_date": "2021-12-16",
-					"group_id": null,
-					"page_id": "xtnh90p3pt2z",
-					"group": false,
-					"only_show_if_degraded": false
-				}
-			],
-			"scheduled_for": "2022-01-25T20:00:00.000Z",
-			"scheduled_until": "2022-01-25T20:10:00.000Z"
-		}
-	]
+      {
+        "id": "pvg66363444f",
+        "name": "Upgrade RPC node",
+        "status": "in_progress",
+        "created_at": "2022-01-25T19:33:29.484Z",
+        "updated_at": "2022-01-25T20:00:46.844Z",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/w43l4h2fvd1b",
+        "started_at": "2022-01-25T19:33:29.478Z",
+        "page_id": "xtnh90p3pt2z",
+        "incident_updates": [
+          {
+            "id": "01lljwg66qbp",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "pvg66363444f",
+            "created_at": "2022-01-25T20:00:46.839Z",
+            "updated_at": "2022-01-25T20:00:46.839Z",
+            "display_at": "2022-01-25T20:00:46.839Z",
+            "affected_components": [
+              {
+                "code": "fldg11grwjyr",
+                "name": "Subgraph",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "2mkv5g9124bw",
+            "status": "scheduled",
+            "body": "We will be undergoing scheduled maintenance during this time to upgrade the RPC node our subgraph uses.",
+            "incident_id": "pvg66363444f",
+            "created_at": "2022-01-25T19:33:29.546Z",
+            "updated_at": "2022-01-25T19:33:29.546Z",
+            "display_at": "2022-01-25T19:33:29.546Z",
+            "affected_components": [
+              {
+                "code": "fldg11grwjyr",
+                "name": "Subgraph",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "fldg11grwjyr",
+            "name": "Subgraph",
+            "status": "under_maintenance",
+            "created_at": "2021-12-16T17:18:11.905Z",
+            "updated_at": "2022-01-25T20:00:46.382Z",
+            "position": 4,
+            "description": "answers queries about blockchain state",
+            "showcase": true,
+            "start_date": "2021-12-16",
+            "group_id": null,
+            "page_id": "xtnh90p3pt2z",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2022-01-25T20:00:00.000Z",
+        "scheduled_until": "2022-01-25T20:10:00.000Z"
+      }
+	  ]
   }
 }
